@@ -18,7 +18,7 @@ int main()
     }
     
     G = i;
-    while (G != 0)
+    while (G != 0)0
     {
         SUM = G * P1 + D * P2;
         minItog = std::min(SUM, minItog);
